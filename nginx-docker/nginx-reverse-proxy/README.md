@@ -8,7 +8,7 @@ A production-ready Nginx configuration demonstrating Layer 7 routing, reverse pr
 - **Containerized Deployment:** Fully Dockerized architecture for quick deployment and zero environment drift.
 
 ## ⚙️ Architecture
-When a user hits port `80`, Nginx captures the request and forwards it to one of the available mock upstream servers running internally on ports `8081` and `8082`.
+When a user hits port `81`, Nginx captures the request and forwards it to one of the available mock upstream servers running internally on ports `8081` and `8082`.
 
 ## 🛠️ How to Run
 Ensure you have Docker installed on your machine.
