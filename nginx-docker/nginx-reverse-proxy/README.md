@@ -16,6 +16,7 @@ Ensure you have Docker installed on your machine.
 1. Clone the repository:
    
    git clone <your-repository-url>
+   
    cd nginx-docker/nginx-reverse-proxy
 
 2. Build the Docker image:
