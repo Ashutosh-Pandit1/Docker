@@ -15,8 +15,8 @@ Ensure you have Docker installed on your machine.
 
 1. Clone the repository:
    
-   git clone <your-repo-link>
-   cd nginx-reverse-proxy
+   git clone <your-repository-url>
+   cd nginx-docker/nginx-reverse-proxy
 
 2. Build the Docker image:
 
@@ -26,4 +26,4 @@ Ensure you have Docker installed on your machine.
 
    docker run -d -p 81:81 --name nginx-cluster nginx-load-balancer
    
-5. Open http://localhost in your browser and refresh to see the load balancer alternate traffic between Backend 1 and Backend 2.
+4. Open http://localhost in your browser and refresh to see the load balancer alternate traffic between Backend 1 and Backend 2.
